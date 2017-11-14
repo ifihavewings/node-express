@@ -1,0 +1,80 @@
+[
+    {
+        "id" : "nh_000000001",
+        "name" : "曦景长安1",
+        "type" : "新房",
+        "city" : "北京",
+        "detailURL" : "http://www.baidu.com",
+        "price" : "12050",
+        "area" : "120",
+        "position" : "[房山]良乡大学城站东400米",
+        "coverPicURL" : "/images/list1.jpg",
+        "saleTel" : "",
+        "stars" : "3"
+    },
+    {
+        "id" : "nh_000000002",
+        "name" : "曦景长安2",
+        "type" : "新房",
+        "city" : "北京",
+        "detailURL" : "http://www.baidu.com",
+        "price" : "12050",
+        "area" : "120",
+        "position" : "[房山]良乡大学城站东400米",
+        "coverPicURL" : "/images/list2.jpg",
+        "saleTel" : "",
+        "stars" : "3"
+    },
+    {
+        "id" : "nh_000000003",
+        "name" : "曦景长安3",
+        "type" : "新房",
+        "city" : "北京",
+        "detailURL" : "http://www.baidu.com",
+        "price" : "12050",
+        "area" : "120",
+        "position" : "[房山]良乡大学城站东400米",
+        "coverPicURL" : "/images/list3.jpg",
+        "saleTel" : "",
+        "stars" : "3"
+    },
+    {
+        "id" : "nh_000000004",
+        "name" : "曦景长安4",
+        "type" : "新房",
+        "city" : "北京",
+        "detailURL" : "http://www.baidu.com",
+        "price" : "12050",
+        "area" : "120",
+        "position" : "[房山]良乡大学城站东400米",
+        "coverPicURL" : "/images/list4.jpg",
+        "saleTel" : "",
+        "stars" : "3"
+    },
+    {
+        "id" : "nh_000000005",
+        "name" : "曦景长安5",
+        "type" : "新房",
+        "city" : "北京",
+        "detailURL" : "http://www.baidu.com",
+        "price" : "12050",
+        "area" : "120",
+        "position" : "[房山]良乡大学城站东400米",
+        "coverPicURL" : "/images/list5.jpg",
+        "saleTel" : "",
+        "stars" : "3"
+    },
+    {
+        "id" : "nh_000000006",
+        "name" : "曦景长安6",
+        "type" : "新房",
+        "city" : "北京",
+        "detailURL" : "http://www.baidu.com",
+        "price" : "12050",
+        "area" : "120",
+        "position" : "[房山]良乡大学城站东400米",
+        "coverPicURL" : "/images/list6.jpg",
+        "saleTel" : "",
+        "stars" : "3"
+    }
+]

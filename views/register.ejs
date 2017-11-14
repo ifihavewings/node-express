@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="/business.js"></script>
+</head>
+<body>
+<%include header.ejs%>
+<h1 style="text-align: center;">REGISTER</h1>
+<div class="container">
+    <div class="row col-md-12">
+        <form>
+            <div class="form-group">
+                <label for="registerName">Nickname</label>
+                <input type="text" class="form-control" id="registerName" placeholder="Nickname">
+            </div>
+            <div class="form-group">
+                <label for="registerEmail">Email address</label>
+                <input type="email" class="form-control" id="registerEmail" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="registerPassword">Password</label>
+                <input type="password" class="form-control" id="registerPassword" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="registerConfirmPassword">Confirmpassword</label>
+                <input type="password" class="form-control" id="registerConfirmPassword" placeholder="Password">
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Check me out
+                </label>
+            </div>
+            <button id="registerBtn" type="button" class="btn btn-default">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

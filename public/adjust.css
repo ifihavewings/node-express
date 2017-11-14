@@ -1,0 +1,68 @@
+/* 更改bootstrap默认设置 */
+.navbar { margin-bottom: 0; }
+.container {padding: 0;}
+.row {margin: 0; }
+input {outline: none;}
+/* Start 首页列表组 */
+.homePageList .col-lg-3 {padding: 10px; background: #fff; border-radius: 4px; overflow: hidden; margin: 0 10px 10px 0; }
+.homePageList .col-lg-3 img {
+    width: 100%; height: 100%; transition: all .5s ease;-webkit-transition: all .5s ease;
+    -webkit-filter: grayscale(70%);
+    -moz-filter: grayscale(70%);
+    -ms-filter: grayscale(70%);
+    -o-filter: grayscale(70%);
+    filter: grayscale(70%);
+    filter: gray;
+}
+.homePageList .col-lg-3 img:hover{    
+    transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    filter: gray;
+}  
+/* End 首页列表组 */
+
+/* Start 列表页 */
+.detailBig { margin: 0 auto; display: block; width: 600px; height: 400px;}
+/* End 列表页 */
+/* Start 注册弹层 */
+.bg_EFD8D8 {background: #EFD8D8!important; }
+.bg_ok {background: rgb(16, 138, 16)!important;}
+.registerPop { position: fixed; z-index: 10000; top: 0; left: 0; width: 100%; height: 100%;  }
+.mask {position: absolute; z-index: 1;width: 100%; height: 100%; background: rgba(0,0,0,.5);}
+.registerCon { position: absolute;z-index: 2; width: 600px; padding: 10px 10px 30px; left: 50%; top:50%; margin-left: -300px; margin-top:-170px; background: #fff; border-radius: 8px;  }
+.registerPop .input-group {margin: 30px;}
+.hasAccountWrap {text-align: right; }
+.hasAccount {margin: 0 30px 0 0;}
+.registerBtn {margin: 30px 30px 10px;}
+.loginBtn {margin: 30px 30px 10px;}
+.note { display: none; position: absolute; z-index: 10; right: 1px; top: 1px; background: #EFD8D8; color: #B55D5C; height: 44px; padding: 10px 16px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; }
+.glyphicon { display: none; position: absolute;right: -22px;z-index: 10;top: 13px;color: rgb(16, 138, 16);}
+.zoomOut {
+    ransition: All 0.4s ease-in-out;
+    -webkit-transition: All 0.4s ease-in-out;
+    -moz-transition: All 0.4s ease-in-out;
+    -o-transition: All 0.4s ease-in-out;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+/* End 注册弹层 */
+
+
+/* Start 登录弹层 */
+.loginPop { position: fixed; z-index: 10000; top: 0; left: 0; width: 100%; height: 100%;  }
+.mask {position: absolute; z-index: 1;width: 100%; height: 100%; background: rgba(0,0,0,.5);}
+.loginCon { position: absolute;z-index: 2; width: 600px; padding: 10px 10px 30px; left: 50%; top:50%; margin-left: -300px; margin-top:-170px; background: #fff; border-radius: 8px;  }
+.loginPop .input-group {margin: 30px;}
+.hasNotAccountWrap {text-align: right; }
+.hasNotAccount {margin: 0 30px 0 0;}
+.loginrBtn {margin: 30px 30px 10px;}
+/* End 登录弹层 */
